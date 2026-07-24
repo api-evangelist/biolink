@@ -1,7 +1,25 @@
 aid: biolink
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biolink.png
 name: biolink
-description: biolink is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BioLink (百林科医药科技（上海）有限公司) is a Shanghai-based bioprocessing company that
+  manufactures core equipment and single-use consumable solutions for biopharmaceutical
+  manufacturing. Its product lines span cell culture and bioreactors, fluid management,
+  chromatography purification, process filtration, and pre-formulated aqueous products
+  (buffers, water for injection, defoamers), serving antibody therapeutics and ADCs,
+  vaccines, cell and gene therapy, and recombinant protein production. BioLink is a
+  portfolio company of Qiming Venture Partners and was added to the API Evangelist
+  network as a company profile; it publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/biolink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Bioprocessing
+- Biopharmaceutical
+- Biotechnology
+- Life Sciences
+- Manufacturing
+- Single-Use Systems
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/biolink-domain-security.yml
 - type: Website
   url: https://biolink.com.cn
+- type: Support
+  url: https://biolink.com.cn/support.html
+- type: PrivacyPolicy
+  url: https://biolink.com.cn/privacy_policy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
