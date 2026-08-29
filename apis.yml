@@ -32,6 +32,9 @@ description: BioLink (百林科医药科技（上海）有限公司) is a Shangh
   portfolio company of Qiming Venture Partners and was added to the API Evangelist
   network as a company profile; it publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/biolink/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "BioLink is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile; it publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
